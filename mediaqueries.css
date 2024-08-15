@@ -1,105 +1,444 @@
 
 @media screen and (max-width: 1400px) {
-    #profile {
-      height: 83vh;
-      margin-bottom: 6rem;
-    }
-    .about-containers {
-      flex-wrap: wrap;
-    }
-    #contact,
-    #projects {
-      height: fit-content;
-    }
+  #profile {
+    height: 1vh;
+    margin-bottom: 0rem;
+    margin-top: 10rem;
+  }
+
+  
+  .education-containers {
+    flex-wrap: wrap;
+    padding-top: 2000vh;
   }
   
-  @media screen and (max-width: 1200px) {
-    #desktop-nav {
-      display: none;
-    }
-    #hamburger-nav {
-      display: flex;
-    }
-    #experience,
-    .experience-details-container {
-      margin-top: 2rem;
-    }
-    #profile,
-    .section-container {
-      display: block;
-    }
-    .arrow {
-      display: none;
-    }
-    section,
-    .section-container {
-      height: fit-content;
-    }
-    section {
-      margin: 0 5%;
-    }
-    .section__pic-container {
-      width: 275px;
-      height: 275px;
-      margin: 0 auto 2rem;
-    }
-    .about-containers {
-      margin-top: 0;
-    }
+  #course {
+    height: 100rem;
+    margin-top: 15rem;
+  }
+
+  #workshop {
+    height: 100rem;
+    margin-top: 30rem;
+  }
+
+  #internship {
+    height: auto;
+    margin-top: 168rem;
+  }
+
+  #projectandpublications {
+    margin-top: 15rem;
+  }
+
+  #patent {
+    margin-top: 20rem;
+  }
+
+  #leadership {
+    margin-top: 10rem;
   }
   
-  @media screen and (max-width: 600px) {
-    #contact,
-    footer {
-      height: 40vh;
-    }
-    #profile {
-      height: 83vh;
-      margin-bottom: 0;
-    }
-    article {
-      font-size: 1rem;
-    }
-    footer nav {
-      height: fit-content;
-      margin-bottom: 2rem;
-    }
-    .about-containers,
-    .contact-info-upper-container,
-    .btn-container {
-      flex-wrap: wrap;
-    }
-    .contact-info-container {
-      margin: 0;
-    }
-    .contact-info-container p,
-    .nav-links li a {
-      font-size: 1rem;
-    }
-    .experience-sub-title {
-      font-size: 1.25rem;
-    }
-    .logo {
-      font-size: 1.5rem;
-    }
-    .nav-links {
-      flex-direction: column;
-      gap: 0.5rem;
-      text-align: center;
-    }
-    .section__pic-container {
-      width: auto;
-      height: 46vw;
-      justify-content: center;
-    }
-    .section__text__p2 {
-      font-size: 1.25rem;
-    }
-    .title {
-      font-size: 2rem;
-    }
-    .text-container {
-      text-align: justify;
-    }
+  #extracurricular {
+    margin-top: 110rem;
   }
-  
+  #contact {
+    margin-top: 70rem;
+  }
+}
+
+/* Tablet view */
+@media screen and (max-width: 1200px) {
+/* Hides the desktop nav */
+#desktop-nav {
+  display: none;
+  width: 100%;
+  position: fixed;
+}
+
+#hamburger-nav {
+  display: flex;
+  position: fixed;
+  width: 96%;
+  margin-top: -160px;
+  z-index: 1;
+}
+
+.hamburger-menu {
+  display: flex;
+  width: 100%;
+}
+
+.menu-links {
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 60px;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.menu-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-links ul li {
+  border-bottom: 1px solid #444;
+}
+
+.menu-links ul li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 14px 20px;
+}
+
+.menu-links.open {
+  display: block;
+  max-height: 600px;
+}
+.hamburger-menu .classprofileopen {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#education {
+  position: relative;
+  margin-top: 140px;
+}
+.section__text {
+align-self: center;
+text-align: center;
+margin-top: 140px;
+}
+
+
+#course {
+height: 100rem;
+margin-top: 15rem;
+}
+#workshop {
+height: 100rem;
+margin-top: 15rem;
+}
+#internship {
+height: auto;
+margin-top: 140rem;
+}
+#consultancy {
+position: relative;
+height: 700px;
+padding-top: 10rem;
+padding-bottom: 0%;
+}
+#projectandpublications {
+margin-top: 15rem;
+}
+#patent {
+margin-top: 32rem;
+}
+#leadership {
+margin-top: 20rem;
+}
+#extracurricular {
+margin-top: 77rem;
+}
+#contact {
+margin-top: 40rem;
+}
+.menu-links.open {
+display: block;
+max-height: 665px;
+max-width: 850px;
+border: black;
+border-style: double;
+border-radius: 20px;
+margin-right: 0px;
+margin-top: 35px;
+}
+}
+
+/* Mobile view */
+@media screen and (max-width: 600px) {
+#contact,
+footer {
+  height: 40vh;
+}
+
+#profile {
+  height: 83px;
+  margin-bottom: 100px;
+}
+
+article {
+  font-size: 1rem;
+}
+
+footer nav {
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+.education-containers,
+.contact-info-upper-container,
+.btn-container {
+  flex-wrap: wrap;
+}
+
+.contact-info-container {
+  margin: 0;
+}
+
+.contact-info-container p,
+.nav-links li a {
+  font-size: 1rem;
+}
+
+.experience-sub-title {
+  font-size: 1.25rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.section__pic-container {
+  width: auto;
+  height: 46vw;
+  justify-content: center;
+}
+
+.section__text__p2 {
+  font-size: 1.25rem;
+}
+
+/* .title {
+  font-size: 2rem;
+} */
+
+.text-container {
+  text-align: justify;
+}
+
+.menu-icon,
+.cancel-icon {
+  height: 30px;
+  cursor: pointer;
+}
+
+.menu-links {
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 60px;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.menu-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-links ul li {
+  border-bottom: 1px solid #444;
+}
+
+.menu-links ul li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 14px 20px;
+}
+
+.menu-links.open {
+  display: block;
+  max-height: 665px;
+  max-width: 400px;
+  border: black;
+}
+#hamburger-nav {
+  display: flex;
+  position: fixed;
+  width: 91%;
+  margin-top: -160px;
+  z-index: 1;
+}
+
+.hamburger-menu .classprofileopen {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.education-info-upper-container {
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+  width: 400px;
+}
+#education {
+position: relative;
+margin-left: 20px;
+}
+.course-upper-container {
+justify-content: center;
+border-radius: 2rem;
+border: rgb(53, 53, 53) 0.1rem solid;
+border-color: rgb(163, 163, 163);
+background: (250, 250, 250);
+margin: 2rem auto;
+padding: 0.5rem;
+width: 400px;
+}
+#course {
+height: 100rem;
+margin-top: 15rem;
+margin-left: 20px;
+}
+.workshop-upper-container {
+justify-content: center;
+border-radius: 2rem;
+border: rgb(53, 53, 53) 0.1rem solid;
+border-color: rgb(163, 163, 163);
+background: (250, 250, 250);
+margin: 2rem auto;
+padding: 0.5rem;
+width: 400px;
+}
+#workshop {
+height: 100rem;
+margin-top: 20rem;
+margin-left: 20px;
+}
+.internship-upper-container {
+justify-content: center;
+border-radius: 2rem;
+border: rgb(53, 53, 53) 0.1rem solid;
+border-color: rgb(163, 163, 163);
+background: (250, 250, 250);
+margin: 2rem auto;
+padding: 0.5rem;
+width: 400px;
+}
+#internship {
+height: auto;
+margin-top: 155rem;
+margin-left: 20px;
+}
+.consultancy-upper-container {
+justify-content: center;
+border-radius: 2rem;
+border: rgb(53, 53, 53) 0.1rem solid;
+border-color: rgb(163, 163, 163);
+background: (250, 250, 250);
+margin: 2rem auto;
+padding: 0.5rem;
+width: 400px;
+}
+#consultancy {
+position: relative;
+height: 700px;
+padding-top: 5rem;
+padding-bottom: 0%;
+margin-left: 20px;
+}
+.patent-upper-container {
+justify-content: center;
+border-radius: 2rem;
+border: rgb(53, 53, 53) 0.1rem solid;
+border-color: rgb(163, 163, 163);
+background: (250, 250, 250);
+margin: 2rem auto;
+padding: 0.5rem;
+width: 400px;
+}
+#projectandpublications {
+margin-top: 23rem;
+margin-left: 20px;
+}
+#patent {
+margin-top: 40rem;
+margin-left: 20px;
+}
+.leadership-upper-container {
+justify-content: center;
+border-radius: 2rem;
+border: rgb(53, 53, 53) 0.1rem solid;
+border-color: rgb(163, 163, 163);
+background: (250, 250, 250);
+margin: 2rem auto;
+padding: 0.5rem;
+width: 400px;
+}
+#leadership {
+margin-top: 20rem;
+margin-left: 20px;
+}
+.extracurricular-upper-container {
+justify-content: center;
+border-radius: 2rem;
+border: rgb(53, 53, 53) 0.1rem solid;
+border-color: rgb(163, 163, 163);
+background: (250, 250, 250);
+margin: 2rem auto;
+padding: 0.5rem;
+width: 400px;
+}
+#extracurricular {
+margin-top: 90rem;
+margin-left: 20px;
+}
+.education-containers, .contact-info-upper-container, .btn-container {
+flex-wrap: wrap;
+/* margin-left: -100px; */
+padding: 25px;
+}
+#socials-container {
+display: flex;
+justify-content: center;
+margin-top: 1rem;
+gap: 1rem;
+align-items: center;
+}
+.contact-info-upper-container, .btn-container {
+flex-wrap: wrap;
+margin-left: -100px;
+padding: 25px;
+}
+.btn-container {
+flex-wrap: wrap;
+padding: 25px;
+margin: 0px;
+}
+.menu-links.open {
+display: block;
+max-height: 665px;
+max-width: 400px;
+border: black;
+border-style: double;
+border-radius: 20px;
+margin: 25px;
+}
+section#contact {
+margin-top: 900px;
+}
+/* .title_mobile{
+font-size: 3.15rem;
+text-align: center;
+margin-left: 10px;
+} */
+}
+
