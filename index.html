@@ -10,39 +10,56 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Karupanasamy</div>
       <div>
+        <a href="/index.html"><img class="imagenav" src="assets/profile.png" alt="profile"/></a>
+      </div>
+      <div class="desktopnav">
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#education" class="navbarlinks">Education</a></li>
+          <li><a href="#course" class="navbarlinks">Course</a></li>
+          <li><a href="#workshop" class="navbarlinks">Workshop</a></li>
+          <li><a href="#preiorintership" class="navbarlinks">Internship</a></li>
+          <li><a href="#consultancy" class="navbarlinks">Consultancy</a></li>
+          <li><a href="#projectandpublications" class="navbarlinks">Project and Publications</a></li>
+          <li><a href="#patent" class="navbarlinks">Patent</a></li>
+          <li><a href="#preiorleadership" class="navbarlinks">Leadership</a></li>
+          <li><a href="#preiorextracurricular" class="navbarlinks">ExtraCurricular</a></li>
+          <li><a href="#footer" class="navbarlinks">Contact</a></li>
         </ul>
       </div>
     </nav>
+    
     <nav id="hamburger-nav">
-      <div class="logo">Karupanasamy</div>
       <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+        <div class="classprofileopen">
+          <div class="navtabandmob">
+            <a href="/index.html"><img class="imagenav" src="assets/profile.png" alt="profile"/></a>
+          </div>
+          <div class="navcancelandopen">
+            <img class="menu-icon" src="assets/more.png" alt="menu" onclick="toggleMenu()">
+            <img class="cancel-icon" src="assets/close.png" alt="cancel" onclick="toggleMenu()" style="display: none;">
+          </div>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <ul>
+            <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+            <li><a href="#course" onclick="toggleMenu()">Course</a></li>
+            <li><a href="#workshop" onclick="toggleMenu()">Workshop</a></li>
+            <li><a href="#internship" onclick="toggleMenu()">Internship</a></li>
+            <li><a href="#consultancy" onclick="toggleMenu()">Consultancy</a></li>
+            <li><a href="#projectandpublications" onclick="toggleMenu()">Project and Publications</a></li>
+            <li><a href="#patent" onclick="toggleMenu()">Patent</a></li>
+            <li><a href="#leadership" onclick="toggleMenu()">Leadership</a></li>
+            <li><a href="#extracurricular" onclick="toggleMenu()">ExtraCurricular</a></li>
+            <li><a href="#footer" onclick="toggleMenu()">Contact</a></li>
+          </ul>
         </div>
       </div>
     </nav>
     <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile pic 0.png" alt="John Doe profile picture" />
-      </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Karupanasamy</h1>
+        <h1 class="title title_mobile">Karupanasamy Viveki</h1>
         <p class="section__text__p2">Civil Engineer</p>
         <div class="btn-container">
           <button
@@ -62,282 +79,415 @@
             class="icon"
             onclick="location.href='https://www.linkedin.com/in/vkarupanasamy'"
           />
+          <img
+            src="./assets/location.svg"
+            alt="Location icon"
+            class="icon location-icon"
+          />
+          <p>Tamilnadu,Erode</a></p>
         </div>
       </div>
     </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.png"
-            alt="Profile picture"
-            class="about-pic"
-          />
+    <section id="education">
+      <h1 class="title">Education</h1>
+      <div class="education-info-upper-container">
+        <div class="text-container">
+        <p1>
+          1-B.E.PSG iTech Coimbatore Anna University 2025
+        </p1>
         </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>3+ years <br />Civil Field</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.E Civil Engineering Degree<br /></p>
-            </div>
+      <div class="text-container">
+        <p1>
+        2-XII Geethaanjali All India Senior Secondary School Thindal, Erode.CBSE 2020
+        </p1>
+     </div>
+      <div class="text-container"
+        <p1>
+         3-X Geethaanjali All India Senior Secondary School Thindal, Erode.CBSE 2018
+        </p1>
+      </div>
+      <div class="text-container"
+        <p3>
+        4-B.A.HINDI Dakshin Bharat Hindi Prachar Sabha 2016
+        </p3>
+      </div>
+      </div>
+    </section>
+    <section id="course">
+      <h1 class="title">Course</h1>
+      <div class="course-upper-container">
+      <div class="text-container">
+        <p1>
+         1-Completed the Grand Master in Mental Arithmetic (Abacus) through Vinayaga Academy in 2016
+        </p1>
+      </div>
+      <div class="text-container">
+        <p2>
+         2-Completed Vedic Mathrix – a 5 day residential camp and level 1 in Vedic Maths at Chinmaya International Foundation in 2018
+        </p2>
+      </div>
+      <div class="text-container"
+        <p3>
+         3-‘Basics of Civil Engineering in Construction’ through Udemy
+        </p3>
+      </div>
+      <div class="text-container"
+        <p4>
+         4-‘Introduction to Iot’ through Skill up.
+        </p4>
+      </div>
+      <div class="text-container"
+        <p5>
+         5-‘Auto-Cad’ through Verzeo
+        </p5>
+      </div>
+      <div class="text-container"
+        <p6>
+          6-‘Concreting Techniques and Practices’ through L&T EduTech.
+        </p6>
+      </div>
+      <div class="text-container"
+        <p7>
+        7-‘Interior Textures – Basic Module 1’ through Asian paints Colour Academy
+      </p7>
+      </div>
+      <div class="text-container"
+       <p8>
+        8-‘Interior Texture – Indian Traditional Finishes 1’ through Asian paints Colour Academy.
+       </p8>
+      </div>
+      <div class="text-container"
+        <p9>
+         9-‘Wood Finishes – Melamyne and Water based Finishes’ through Asian paints Colour Academy.
+        </p9>
+      </div>
+      <div class="text-container"
+      <p10>
+        10-Completed an offline course Advanced level -1 Plumbing Course through Asian paints Colour Academy
+      </p10>
+      </div>
+      <div class="text-container"
+      <p11>
+        11-NPTEL – GPS Surveying and Structural Analysis-1(Ongoing)
+      </p11>
+      </div>
+    </section>
+    <section id="workshop">
+      <h1 class="title">Workshop</h1>
+      <div class="workshop-upper-container">
+        <div class="text-container">
+          <p1>
+           1-Attended online workshop on ‘Bridge Design and Analysis’, organized by I Prime Skill.
+          </p1>
+        </div> 
+        <div class="text-container">
+          <p2>
+           2-Participated in the ISEA workshop on ‘Iot–Edge Ecosystem: A Security Perspective’ organised by Indian Institute Of Technology Guwahati under ISEA Project – Phase II held on 18th October 2021 at PSG Institute of Technology and Applied Research, Coimbatore.
+          </p2>
+         </div> 
+        <div class="text-container">
+          <p3>
+          3-Participated training program on ‘3D Modelling & Visualization’ held on 31th October 2021
+          </p3>
+        </div>
+        <div class="text-container">
+          <p4>
+          4-Attended online workshop on ‘Auto CAD-2D’, conducted by Institute of Acadd Centre
+          </p4>
+        </div>
+        <div class="text-container">
+          <p5>
+          5-Attended Master class on ‘Python and Machine Learning Fundamentals’, conducted by Perfect Plan B ELearning Private Limited.        
+          </p5>
+        </div>
+        <div class="text-container">
+          <p6>
+           6-Participated in IP Awareness / Training program under ‘National Intellectual Property Awareness Mission’ on 4th January 2022.
+          </p6>
+        </div>
+        <div class="text-container">
+          <p7>
+           7-Attended the ‘Entrepreneurship Awareness Camp’ Sponsored by NSTDEB, Department of Science & Technology, Government of India, and New Delhi and organised by PSG-STEP during the period 21st December 2021 to 23rd December 2022.           .
+          </p7>
+        </div>
+        
+        <div class="text-container">
+          <p8>
+          8-Participated in ‘Digital Marketing Boot Camp Webinar’ on 29th & 30th January 2022, conducted by E-Search Advisors Digital Services at Chennai.
+          </p8>
+        </div> 
+        <div class="text-container">
+          <p9>
+         9-Attended the webinar on ‘Project Well-being 2.0’on 12 February 2022, conducted by International Association of Lions Clubs.
+          </p9>
+        </div>
+        <div class="text-container">
+          <p10>
+          10-Participated in IP Awareness / Training program under ‘National Intellectual Property Awareness Mission’ on 30th September 2022.
+          </p10>
+        </div>
+        <div class="text-container">
+          <p11>
+          11-Attended the Innovation Voucher Programme workshop on 08.11.2022 at PSG Institute of Technology and Applied Research, Coimbatore.
+          </p11>
+        </div>
+        <div class="text-container">
+          <p12>
+          12-Attended a workshop on STAAD PRO on 19th March conducted Aakaar, IIT Bombay in association with Bentley Softwares and Khaas Group
+          </p12>
+        </div>
+        <div class="text-container">
+          <p13>
+          13-Participated in webinar on Tekla Structures on 01.04.2023 conducted by C Cube Technologies.
+          </p13>
+        </div>
+        <div class="text-container">
+          <p14>
+          14-Participated in the National Workshop on “3D Concrete Printing” organized by Department of Civil Engineering, PSG iTech.
+          </p14>
+        </div>
+        <div class="text-container" id="preiorintership">
+          <p15>
+          15-Participated one day virtual workshop on “Construction Project Management” on 22nd June 2023, conducted by Skyy Rider Institutions.
+          </p15>
+        </div>
+    </section>
+    <section id="internship">
+      <h1 class="title">Internship</h1>
+      <div class="internship-upper-container">
+        <div class="text-container">
+          <p1>
+           1-Ongoing Internship in Coastal  Engineering about Coastal mitigation at National Institute 
+           of Technology (NIT), Trichy.
+          </p1>
+        </div> 
+        <div class="text-container">
+          <p2>
+           2-Completed an Internship Training at Coimbatore Highways Department, the project site of
+           Athupalam Ukkadam Flyover Construction from 4th July 2023 to 18th July 2023.
+           </p2>
+         </div> 
+        <div class="text-container">
+          <p3>
+          3-Completed an Industrial Oriented Construction Projects Internship Training at CMTI 
+          Bangalore from 23th June 2023 to 29th June 2023
+          </p3>
+        </div>
+        <div class="text-container">
+          <p4>
+          4- Completed an ‘Internship Program AutoCAD Civil’ from 01-10-2022 to 15-11-2022, 
+          through 1STOP
+          </p4>
+        </div>
+        <div class="text-container">
+          <p5>
+          5-Completed an ‘Internship Program Auto-cad’ from 01-04-2022 to 31-05-2022, through
+          Verzeo        
+          </p5>
+        </div>
+      </section>
+      <section id="consultancy">
+        <h1 class="title">Consultancy</h1>
+        <div class="consultancy-upper-container">
+          <div class="text-container">
+            <p1>
+             1-Structural Safety Check at Sakthi Vinayagar Hindu Vidyalaya School in Thoothukudi, under guidance of Dr. Arun M and Dr. Karthick J on 05-12-2023 to 06-12-2023.
+            </p1>
+          </div> 
+          <div class="text-container">
+            <p2>
+             2-Structural Safety Check at RD Residency in Perundurai, under guidance of Dr. Karthick J and Mr. Balaji R on 10-05-2024.
+             </p2>
+           </div> 
+          <div class="text-container">
+            <p3>
+            3-Structural Safety Check at Bradken Pvt. Ltd. in Coimbatore, under guidance of Dr. Karthick J and Mr. Balaji R on 11-05-2024.
+            </p3>
+          </div>
+        </section>
+      <section id="projectandpublications">
+        <h1 class="title">Project and Publications</h1>
+        <div class="patent-upper-container">
+          <div class="text-container">
+            <p1>
+             1-Worked on 2nd Police Station Level Field Survey of Accident Hotspots, in Coimbatore City, from 31.07.2023 to 04.08.2023..
+            </p1>
+          </div> 
+          <div class="text-container">
+            <p2>
+             2-Demonstrated the ideas about Smart Road and Self-cleaning Road
+            </p2>
+           </div>
+           <div class="text-container">
+            <p2>
+             3-Exhibitied the project titled thermocol concrete for the iTech Expo 2023
+            </p2>
+           </div>
+           <div class="text-container">
+            <p2>
+             4-Published a journal paper on the topic ‘Palatability Evaluation of Subsurface Water: A
+             Case Study for Selected Region of Tirupur City, India.’
+            </p2>
+           </div>
+          </section>
+          <section id="patent">
+            <h1 class="title">Patent</h1>
+            <div class="patent-upper-container">
+              <div class="text-container">
+                <p1>
+                 1-Published a patent entitled ‘Harnessing of SIO2-Rich Industrial Solid Waste in Sand Filtration’.
+                </p1>
+              </div> 
+              <div class="text-container" id="preiorleadership">
+                <p2>
+                 2-Published a patent entitled ‘Application of Waste Foundry Sand in Decolorization of Textile Effluent’.
+                </p2>
+               </div>
+              </section>
+          <section id="leadership">
+            <h1 class="title">Leadership</h1>
+            <div class="leadership-upper-container">
+              <div class="text-container">
+                <p1>
+                 1-Secretary of Student’s Union (2023-24), PSG iTech.
+                </p1>
+              </div> 
+              <div class="text-container">
+                <p2>
+                 2-Secretary of Civil Engineering Association, COSMOS CEA (2023-24), PSG iTech
+                </p2>
+               </div> 
+              <div class="text-container">
+                <p3>
+                3-Secretary of Higher Education Forum(Technical 2023-2024), PSG iTech
+                </p3>
+              </div>
+              <div class="text-container">
+                <p4>
+                4-College Representative for Aakaar, IIT Bombay (2023-24).
+                </p4>
+              </div>
+              <div class="text-container">
+                <p5>
+                5-Campus Ambassador for IIT Madras CEA Fest (2023-2024).        
+                </p5>
+              </div>
+              <div class="text-container">
+                <p6>
+                 6-Secretary of Higher Education Forum(language),PSG PSG iTech,conducted a webinar on ‘Careers in Engineering stream and Job Opportunities in Australia(2023-2024)
+                </p6>
+              </div>
+              <div class="text-container">
+                <p7>
+                 7-Executive Member of Harmony Club, PSG iTech, conducted an event ‘INVOKE’ for Yukta(2022- 2023)           .
+                </p7>
+              </div>
+              <div class="text-container">
+                <p8>
+                8-Treasurer of Entrepreneurs Club (E-Club), PSG iTec, Coimbatore, conducted a workshop on ‘Innovation Voucher Programme (2022- 2023)
+                </p8>
+              </div> 
+              <div class="text-container">
+                <p9>
+               9-Public Relation Officer (PRO) of Rotaract Club, PSG iTec(2022-2023)
+                </p9>
+              </div>
+              <div class="text-container">
+                <p10>
+                10-Overall Coordinator for Yukta: 2023 (Civil Department)PSG iTec conducted on 20.03.2023 and 21.03.2023.
+                </p10>
+              </div>
+              <div class="text-container">
+                <p11>
+                11-Student Ambassador for Yukta:PSG iTec conducted on 20.03.2023 and 21.03.2023
+                </p11>
+              </div>
+              <div class="text-container">
+                <p12>
+                12-Served as IPR Representative PSG iTech in the year 2022-2023
+                </p12>
+              </div>
+              <div class="text-container">
+                <p13>
+                13-Served as Class Committee Member PSG iTech in the year 2022-2023
+                </p13>
+              </div>
+              <div class="text-container">
+                <p14>
+                14-Served as class representative PSG iTec in the year 2021-2022
+                </p14>
+              </div>
+              <div class="text-container">
+                <p14>
+                15-Active Member of Indian Society for Technical Education (ISTE)
+                </p14>
+              </div>
+              <div class="text-container" id="preiorextracurricular">
+                <p14>
+                16-Active Member of India Chapter of American Concrete Institute (ICACI).
+                </p14>
+              </div>
+          </section>
+      <section id="extracurricular">
+        <h1 class="title">Extracurricular</h1>
+        <div class="extracurricular-upper-container">
+          <div class="text-container">
+            <p1>
+             1-Won the 3rd prize in ‘National Science Day 2022-Science Talk’ conducted by the Astronomy Club in association with the Science and Humanities Association , PSG iTech in Feb,2022..
+            </p1>
+          </div> 
+          <div class="text-container">
+            <p2>
+             2-Participated in Debate on the topic ‘Environment vs. Development’, conducted by The Harmony Club.
+            </p2>
+           </div> 
+          <div class="text-container">
+            <p3>
+            3-Participated in Bridge It competition, conducted by Aakaar, IIT Bombay.
+            </p3>
           </div>
           <div class="text-container">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
-            </p>
+            <p4>
+            4-District and State Level Karate champion till (2016).
+            </p4>
           </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Academic</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Student's Union Secretary</h3>
-                  <p>2023-2024</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Top Performing Campus Ambassador</h3>
-                  <p>IIT Madras</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Secretary</h3>
-                  <p>Civil Engineerning Association</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Campus Ambassador</h3>
-                  <p>CEA Fest IIT Madras 2024</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Nill</h3>
-                  <p>nill</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>--</h3>
-                  <p>--</p>
-                </div>
-              </article>
-            </div>
+          <div class="text-container">
+            <p5>
+            5-Participated in Concrete Cube Test Competition-2023 by ICACI.       
+            </p5>
           </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Extra Curricular</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>--</h3>
-                  <p>--</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>--</h3>
-                  <p>--</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CAD</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>--</h3>
-                  <p>--</p>
-                </div>
-              </article>
-            </div>
+          <div class="text-container">
+            <p6>
+             6-Participated at National Level Karate Championship.
+            </p6>
           </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://mega.io/'"
-              >
-                Get A Glance
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://mega.io/'"
-              >
-                Want to know More?
-              </button>
-            </div>
+          <div class="text-container">
+            <p7>
+             7- Secured 3rd prize in Short-put District Level (2016-17)
+            </p7>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-              Want to know More?
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-              Get A Glance
-              </button>
-            </div>
+          <div class="text-container">
+            <p8>
+            8- Participated in Short-put tournament in Intra College Level (PSG iTech)
+            </p8>
+          </div> 
+          <div class="text-container">
+            <p9>
+            9- Secured 1st prize in Tirupur Open Karate Championship – 2023 South India Level.
+            </p9>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-              Get A Glance
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-              Want to know More?
-              </button>
-            </div>
+          <div class="text-container">
+            <p10>
+            10-Secured 1st prize in Udumalpet 2nd International Open Karate Championship – 2023.
+            </p10>
           </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
+          <div class="text-container">
+            <p11>
+            11-Participated in Essay Competition-2023 by ICACI.
+            </p11>
+          </div>
+        </section>
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
@@ -354,21 +504,17 @@
             alt="Phone icon"
             class="icon contact-icon"
           />
-          6380 507 255
+          <table>
+            <tr>
+              <td>
+                <a href="tel:+916380507255">+916380507255</a>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
     </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+    <footer id="footer">
       <p>Copyright &#169; 2024 Karupanasamy Viveki. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
